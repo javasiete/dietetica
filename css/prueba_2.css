@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    background: rgb(160, 160, 160);
+    min-height: 100vh; /*Ahora podemos trabajar con porcentajes del 100%*/
+}
+
+
+
+.contenedorPrincipal{
+    background-color: grey;
+    display:grid;
+    grid-template-columns: 1fr 3fr; /*Dividimos en 4 fr al Contenedor Principal*/
+    width: 95%; /*Ocupa el 95% del ancho de la pantalla*/
+    margin: 30px auto; /*Pusimos margenes de arriba y de abajo*/
+    gap:15px;
+    padding: 10px;
+
+}
+
+.banner{
+    background: lightpink;
+    border: black solid 3px;
+    height: 30vh;
+}
+
+.contenedorTarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+
+}
+
+.tarjeta1{
+    background: lightblue;
+    border: black solid 3px;
+}
+.tarjeta2{
+    background: lightblue;
+    border: black solid 3px;
+}
+.tarjeta3{
+    background: lightblue;
+    border: black solid 3px;
+}
+
+.tarjeta4{
+    background: lightblue;
+    border: black solid 3px;
+}
+.tarjeta5{
+    background: lightblue;
+    border: black solid 3px;
+}
+.tarjeta6{
+    background: lightblue;
+    border: black solid 3px;
+}
